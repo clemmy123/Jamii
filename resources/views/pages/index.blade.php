@@ -4,15 +4,15 @@
     <main class="main">
 
         <!-- Hero Section -->
-        <section id="hero" class="hero section">
+        <section id="hero" class="section" style="background-image: url('{{ asset('landing/img/banner-bg.png') }}'); background-size: cover;">
             <div class="container">
                <div class="hero-img-container text-center mb-4">
             <img src="{{ asset('landing/img/nembo2.png') }}"  alt="Hero Image" style="height: 120px; width: 120px;">
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center" data-aos="fade-up">
-                        <h2>MINISTRY OF COMMUNITY DEVELOPMENT GENDER WOMEN AND SPECIAL GROUPS</h2>
-                        <h3>COMMUNITY DEVELOPMENT INFORMATION SYSTEM (CD-MIS)</h3>
+<h2 class="header-title" style="color: #bca002ff;">MINISTRY OF COMMUNITY DEVELOPMENT GENDER WOMEN AND SPECIAL GROUPS</h2>
+<h3 style="color: #bca002ff;">(CD-MIS)</h3>
                     </div>
                 </div>
                 {{-- <div class="row gy-4">
@@ -35,7 +35,7 @@
 
             <div class="container">
                 <div class="section-header">
-                    <h2>Select Services below...</h2>
+                    <p class="fs-4 mt-2">Select Services below...</p>
                 </div>
 
                 <div class="row gy-4">
@@ -60,7 +60,7 @@
                         <div class="service-item position-relative">
                             <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
                             <h4><a href="#" class="stretched-link">Children and Family</a></h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                            <p>Supporting family welfare and addressing children's issues for a stronger community.</p>
                         </div>
 
                     </div><!-- End Service Item -->

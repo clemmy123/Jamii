@@ -7,6 +7,11 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+
   <!-- Favicons -->
   <link href="{{ asset('landing/img/favicon.png') }}" rel="icon">
   <link href="{{ asset('landing/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
@@ -33,6 +38,14 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    .header-title {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: 40px;
+  font-weight: 700;
+  font-style: regular;
+}
+  </style>
 </head>
 
 <body class="index-page">
