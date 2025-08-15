@@ -102,7 +102,7 @@
 
 @include('layouts.end')
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" style="background-color: #e6b800;"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   {{-- <div id="preloader"></div> --}}

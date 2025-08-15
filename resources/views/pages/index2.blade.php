@@ -5,7 +5,7 @@
  <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section"style="background-image: url('{{ asset('landing/img/banner-bg.png') }}'); background-size: cover;">
+    <section id="hero" class="hero section"style="background-image: url('{{ asset('landing/img/banner-bg.png') }}'); background-size: cover; min-height: 90vh;">
 
       <div class="container">
         <div class="row gy-4">
@@ -13,12 +13,12 @@
             <h3 style="color: #e6b800;">MINISTRY OF COMMUNITY DEVELOPMENT GENDER WOMEN AND SPECIAL GROUPS</h3>
             <p style="color: #e6b800;">Community Development Information System (CD-MIS)</p>
             <div class="d-flex">
-            <a href="#" class="btn-get-started" style="background-color: #e6b800; color: #080808ff; border: none;">Get Started</a>
+            <a href="#featured-services" class="btn-get-started" style="background-color: #e6b800; color: #080808ff; border: none;">Get Started</a>
               {{-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> --}}
             </div>
-          </div>
+          </div> 
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
-            <div style="width: 100%; height: 150%; background-color: #e0e0e0; border-radius: 16px; display: flex; align-items: center; justify-content: center;">
+            <div style="width: 100%; height: 150%; background-color: #e0e0e0; border-radius: 16px; display: flex; align-items: center; justify-content: center; min-height: 30vh;">
                 <div class="row w-100 justify-content-center align-items-center">
                     <div class="col-4 text-center">
                         <i class="bi bi-activity" style="font-size: 2.5rem; color: #e6b800;"></i>
@@ -54,11 +54,12 @@
             <section id="featured-services" class="featured-services section">
 
             <div class="container">
-                <div class="section-header">
-                    <p class="fs-4 mt-2">Select Services below...</p>
+                <div class="section-header pt-5">
+                    
+                    <p class="fs-4 mt-2 text-center fw-bold">Services</p>
                 </div>
 
-                <div class="row gy-4">
+                <div class="row gy-4 pt ">
 
                     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-item position-relative">
