@@ -13,7 +13,10 @@
             <h3 style="color: #e6b800;">MINISTRY OF COMMUNITY DEVELOPMENT GENDER WOMEN AND SPECIAL GROUPS</h3>
             <p style="color: #e6b800;">Community Development Information System (CD-MIS)</p>
             <div class="d-flex">
-            <a href="#featured-services" class="btn-get-started" style="background-color: #e6b800; color: #080808ff; border: none;">Get Started</a>
+            <a href="#featured-services" class="btn-get-started d-flex align-items-center" style="background-color: #e6b800; color: #080808ff; border: none;">
+                View Services
+                <i class="bi bi-arrow-right ms-2" style="font-size: 1.2rem;"></i>
+            </a>
               {{-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> --}}
             </div>
           </div> 
