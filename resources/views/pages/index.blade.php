@@ -42,24 +42,39 @@
 
                     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-activity icon"></i></div>
-                            <h4><a href="#" class="stretched-link">Gender and Women Empowerment</a></h4>
+                            <div class="icon" ><i class="bi bi-activity icon"style="color: #bca002ff;"></i></div>
+                            <h4><a href="#" class="stretched-link gender-link">Gender and Women Empowerment</a></h4>
+                            <style>
+                                .gender-link:hover {
+                                    color: #bca002ff !important;
+                                }
+                            </style>
                             <p>Promoting gender equality and empowering women for inclusive community development.</p>
                         </div>
                     </div><!-- End Service Item -->
 
                     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
                         <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-                            <h4><a href="#" class="stretched-link">CD and CDTI&CDTTI</a></h4>
+                            <div class="icon"><i class="bi bi-bounding-box-circles icon"style="color: #bca002ff;"></i></div>
+                            <h4><a href="#" class="stretched-link cd-link">CD and CDTI&CDTTI</a></h4>
+                            <style>
+                                .cd-link:hover {
+                                    color: #bca002ff !important;
+                                }
+                            </style>
                             <p>Community Development provide training and support for sustainable community growth and capacity building.</p>
                         </div>
                     </div><!-- End Service Item -->
 
                     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-                            <h4><a href="#" class="stretched-link">Children and Family</a></h4>
+                            <div class="icon"><i class="bi bi-calendar4-week icon"style="color: #bca002ff;"></i></div>
+                            <h4><a href="#" class="stretched-link ch-link">Children and Family</a></h4>
+                            <style>
+                                .ch-link:hover {
+                                    color: #bca002ff !important;
+                                }
+                            </style>
                             <p>Supporting family welfare and addressing children's issues for a stronger community.</p>
                         </div>
 
@@ -68,25 +83,40 @@
 
                         <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                             <div class="service-item position-relative">
-                                <div class="icon"><i class="bi bi-activity icon"></i></div>
-                                <h4><a href="#" class="stretched-link">NPA VWAC</a></h4>
+                                <div class="icon"><i class="bi bi-activity icon"style="color: #bca002ff;"></i></div>
+                                <h4><a href="#" class="stretched-link npa-link">NPA VWAC</a></h4>
+                                <style>
+                                    .npa-link:hover {
+                                        color: #bca002ff !important;
+                                    }
+                                </style>
                                 <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                             </div>
                         </div><!-- End Service Item -->
 
                         <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-item position-relative">
-                                <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-                                <h4><a href="#" class="stretched-link">Programs</a></h4>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                <div class="icon"><i class="bi bi-bounding-box-circles icon"style="color: #bca002ff;"></i></div>
+                                <h4><a href="#" class="stretched-link program-link">Programs</a></h4>
+                                <style>
+                                    .program-link:hover {
+                                        color: #bca002ff !important;
+                                    }
+                                </style>
+                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                             </div>
                         </div><!-- End Service Item -->
 
                         <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
                             <div class="service-item position-relative">
-                                <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-                                <h4><a href="#" class="stretched-link">Explore more...</a></h4>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                <div class="icon"><i class="bi bi-calendar4-week icon"style="color: #bca002ff;"></i></div>
+                                <h4><a href="#" class="stretched-link explore-link">Explore more...</a></h4>
+                                <style>
+                                    .explore-link:hover {
+                                        color: #bca002ff !important;
+                                    }
+                                </style>
+                                <p>Report cases about children and family welfare, Gender and Development issues.</p>
                             </div>
 
                         </div><!-- End Service Item -->
