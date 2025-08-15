@@ -11,7 +11,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center" data-aos="fade-up">
-<h2 class="header-title" style="color: #bca002ff;">MINISTRY OF COMMUNITY DEVELOPMENT GENDER WOMEN AND SPECIAL GROUPS</h2>
+<h2 class="header-title" style="color: #e6b800;">MINISTRY OF COMMUNITY DEVELOPMENT GENDER WOMEN AND SPECIAL GROUPS</h2>
 <h3 style="color: #bca002ff;">(CD-MIS)</h3>
                     </div>
                 </div>
