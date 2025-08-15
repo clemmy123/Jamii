@@ -9,8 +9,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
   <link href="{{ asset('landing/img/favicon.png') }}" rel="icon">
@@ -45,6 +44,13 @@
   font-weight: 700;
   font-style: regular;
 }
+
+.baloo-bhaijaan-2-400 {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-size: 60px;
+  font-weight: 600; 
+  font-style: normal;
+}
   </style>
 </head>
 
@@ -56,7 +62,7 @@
       <a href="index-2.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <img src="{{ asset('landing/img/nembo2.png') }}" alt="Nembo Logo" class="logo-img" style="height: 55px;width: 50px;">
+        <img src="{{ asset('landing/img/nembo2.png') }}" alt="Nembo Logo" class="logo-img" style="height: 55px">
       </a>
 
       <nav id="navmenu" class="navmenu">
