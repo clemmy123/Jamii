@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
@@ -56,7 +56,7 @@
       <a href="index-2.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">CD-MIS</h1>
+        <img src="{{ asset('landing/img/nembo2.png') }}" alt="Nembo Logo" class="logo-img" style="height: 55px;width: 50px;">
       </a>
 
       <nav id="navmenu" class="navmenu">
