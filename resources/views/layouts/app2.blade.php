@@ -88,7 +88,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted px-4 py-2 fs-5 rounded-pill shadow" href="#" style="background-color: #bca002ff; color: #000; border: 2px solid #fff; transition: all 0.3s;">
+      <a class="btn-getstarted px-4 py-2 fs-5 rounded-pill shadow" href="#" style="background-color: #e6b800; color: #000; border: 2px solid #fff; transition: all 0.3s;">
         <i class="bi bi-person-plus me-2"></i> Sign Up
       </a>
 
