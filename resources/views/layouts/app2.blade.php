@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
   <!-- Favicons -->
-  <link href="{{ asset('landing/img/favicon.png') }}" rel="icon">
+  <link href="{{ asset('landing/img/nembo2.png') }}" rel="icon">
   <link href="{{ asset('landing/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Fonts -->
