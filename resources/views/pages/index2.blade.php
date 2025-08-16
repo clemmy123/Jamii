@@ -36,33 +36,33 @@
                                             <div class="card-body py-5">
                                                 <div class="row py-3">
                                                     <div class="col-4 text-center">
-                                                        <i class="bi bi-activity"
+                                                        <i class="bi bi-people-fill"
                                                             style="font-size: 2.5rem; color: #e6b800;"></i>
                                                         <div style="color: #888; font-size: 1rem;">Gender & Women
                                                             Empowerment</div>
                                                     </div>
                                                     <div class="col-4 text-center">
-                                                        <i class="bi bi-bounding-box-circles"
+                                                        <i class="bi bi-building-fill-up"
                                                             style="font-size: 2.5rem; color: #e6b800;"></i>
                                                         <div style="color: #888; font-size: 1rem;">CD & CDTI/CDTTI</div>
                                                     </div>
                                                     <div class="col-4 text-center">
-                                                        <i class="bi bi-calendar4-week"
+                                                        <i class="bi bi-diagram-3-fill"
                                                             style="font-size: 2.5rem; color: #e6b800;"></i>
                                                         <div style="color: #888; font-size: 1rem;">Children & Family</div>
                                                     </div>
                                                     <div class="col-4 text-center">
-                                                        <i class="bi bi-calendar4-week"
+                                                        <i class="bi bi-collection-fill"
                                                             style="font-size: 2.5rem; color: #e6b800;"></i>
                                                         <div style="color: #888; font-size: 1rem;">NPA VWAC</div>
                                                     </div>
                                                     <div class="col-4 text-center">
-                                                        <i class="bi bi-calendar4-week"
+                                                        <i class="bi bi-card-list"
                                                             style="font-size: 2.5rem; color: #e6b800;"></i>
                                                         <div style="color: #888; font-size: 1rem;">Programs</div>
                                                     </div>
                                                     <div class="col-4 text-center">
-                                                        <i class="bi bi-calendar4-week"
+                                                        <i class="bi bi-card-checklist"
                                                             style="font-size: 2.5rem; color: #e6b800;"></i>
                                                         <div style="color: #888; font-size: 1rem;">Report Cases</div>
                                                     </div>
@@ -90,7 +90,7 @@
 
                     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-activity icon"style="color: #e6b800;"></i></div>
+                            <div class="icon"><i class="bi bi-people-fill icon"style="color: #e6b800;"></i></div>
                             <h4><a href="#" class="stretched-link gender-link">Gender and Women Empowerment</a></h4>
                             <style>
                                 .gender-link:hover {
@@ -103,7 +103,7 @@
 
                     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
                         <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-bounding-box-circles icon"style="color: #e6b800;"></i></div>
+                            <div class="icon"><i class="bi bi-building-fill-up icon"style="color: #e6b800;"></i></div>
                             <h4><a href="#" class="stretched-link cd-link">CD and CDTI&CDTTI</a></h4>
                             <style>
                                 .cd-link:hover {
@@ -117,7 +117,7 @@
 
                     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-calendar4-week icon"style="color: #e6b800;"></i></div>
+                            <div class="icon"><i class="bi bi-diagram-3-fill icon"style="color: #e6b800;"></i></div>
                             <h4><a href="#" class="stretched-link ch-link">Children and Family</a></h4>
                             <style>
                                 .ch-link:hover {
@@ -132,7 +132,7 @@
 
                         <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                             <div class="service-item position-relative">
-                                <div class="icon"><i class="bi bi-activity icon"style="color: #e6b800;"></i></div>
+                                <div class="icon"><i class="bi bi-collection-fill icon"style="color: #e6b800;"></i></div>
                                 <h4><a href="#" class="stretched-link npa-link">NPA VWAC</a></h4>
                                 <style>
                                     .npa-link:hover {
@@ -145,7 +145,7 @@
 
                         <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-item position-relative">
-                                <div class="icon"><i class="bi bi-bounding-box-circles icon"style="color: #e6b800;"></i>
+                                <div class="icon"><i class="bi bi-card-list icon"style="color: #e6b800;"></i>
                                 </div>
                                 <h4><a href="#" class="stretched-link program-link">Programs</a></h4>
                                 <style>
@@ -159,7 +159,7 @@
 
                         <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
                             <div class="service-item position-relative">
-                                <div class="icon"><i class="bi bi-calendar4-week icon"style="color: #e6b800;"></i></div>
+                                <div class="icon"><i class="bi bi-card-checklist icon"style="color: #e6b800;"></i></div>
                                 <h4><a href="#" class="stretched-link explore-link">Explore more...</a></h4>
                                 <style>
                                     .explore-link:hover {
@@ -186,7 +186,7 @@
                 e.preventDefault();
 
                 const items = [{
-                        icon: 'bi bi-activity',
+                        icon: 'bi bi-wallet-fill',
                         title: 'WDF-Loans',
                         description: 'Apply online view status for disbursment and make payment Economic women empowerment.'
                     },
