@@ -78,7 +78,7 @@
                 <i class="bi bi-lock me-2"></i> Sign in
             </a>
             <a class="btn-getstarted px-4 py-2 fs-5 rounded-pill shadow" href="#"
-                style="background-color: #e6b800; color: #000; border: 2px solid #fff; transition: all 0.3s;">
+                style="background-color: #fefefd; color: #000; border: 2px solid #fff; transition: all 0.3s;">
                 <i class="bi bi-person-plus me-2"></i> Create Account
             </a>
         </div>
