@@ -6,8 +6,8 @@
     <main class="main">
 
         <!-- Hero Section -->
-        <section id="hero"
-            class="section"style="background-image: url('{{ asset('landing/img/banner-bg.png') }}'); background-size: cover;">
+        <section id="hero" class="section"
+            style="background-image: url('{{ asset('landing/img/banner-bg.png') }}'); background-size: cover;">
 
             <div class="container">
                 <div class="row align-items-center" style="min-height: 70vh;">
@@ -18,15 +18,15 @@
                                 <h1 class="baloo-bhaijaan-2-400" style="color: #e6b800;">MINISTRY OF COMMUNITY DEVELOPMENT
                                     GENDER WOMEN AND SPECIAL GROUPS</h1>
                                 <h6 class="display-6 text-white" style="font-size: 24px;">Community Development Information
-                                    System (CD-MIS)</h6>
-                                <div class="d-flex">
+                                    System (CD-IS)</h6>
+                                {{-- <div class="d-flex">
                                     <a href="#featured-services" class="btn rounded-pill px-3 border-3 border-white"
                                         style="background-color: #e6b800">
                                         View Services
                                         <i class="bi bi-arrow-right ms-2" style="font-size: 1.2rem;"></i>
                                     </a>
-                                    {{-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> --}}
-                                </div>
+
+                                </div> --}}
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2 hero-img px-3" data-aos="zoom-out" data-aos-delay="100">
                                 <div class="row w-100 justify-content-center align-items-center py-5"
@@ -67,6 +67,18 @@
                                                         <div style="color: #888; font-size: 1rem;">Report Cases</div>
                                                     </div>
                                                 </div>
+                                                <div class="row mt-4">
+                                                    <div class="col-12">
+                                                        <a href="#featured-services"
+                                                            class="btn btn-warning w-100 py-3 rounded-pill px-3 border-3 border-white"
+                                                            style="font-weight: 500;">
+                                                            Get Started
+                                                            <i class="bi bi-arrow-right ms-2"
+                                                                style="font-size: 1.2rem;"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -74,8 +86,9 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
-            </div>
+
 
         </section><!-- /Hero Section -->
         <section id="featured-services" class="featured-services section">
@@ -90,7 +103,7 @@
 
                     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-people-fill icon"style="color: #e6b800;"></i></div>
+                            <div class="icon"><i class="bi bi-people-fill icon" style="color: #e6b800;"></i></div>
                             <h4><a href="#" class="stretched-link gender-link">Gender and Women Empowerment</a></h4>
                             <style>
                                 .gender-link:hover {
@@ -103,7 +116,7 @@
 
                     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
                         <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-building-fill-up icon"style="color: #e6b800;"></i></div>
+                            <div class="icon"><i class="bi bi-building-fill-up icon" style="color: #e6b800;"></i></div>
                             <h4><a href="#" class="stretched-link cd-link">CD and CDTI&CDTTI</a></h4>
                             <style>
                                 .cd-link:hover {
@@ -117,7 +130,7 @@
 
                     <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-diagram-3-fill icon"style="color: #e6b800;"></i></div>
+                            <div class="icon"><i class="bi bi-diagram-3-fill icon" style="color: #e6b800;"></i></div>
                             <h4><a href="#" class="stretched-link ch-link">Children and Family</a></h4>
                             <style>
                                 .ch-link:hover {
@@ -132,7 +145,7 @@
 
                         <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                             <div class="service-item position-relative">
-                                <div class="icon"><i class="bi bi-collection-fill icon"style="color: #e6b800;"></i></div>
+                                <div class="icon"><i class="bi bi-collection-fill icon" style="color: #e6b800;"></i></div>
                                 <h4><a href="#" class="stretched-link npa-link">NPA VWAC</a></h4>
                                 <style>
                                     .npa-link:hover {
@@ -145,7 +158,7 @@
 
                         <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-item position-relative">
-                                <div class="icon"><i class="bi bi-card-list icon"style="color: #e6b800;"></i>
+                                <div class="icon"><i class="bi bi-card-list icon" style="color: #e6b800;"></i>
                                 </div>
                                 <h4><a href="#" class="stretched-link program-link">Programs</a></h4>
                                 <style>
@@ -159,7 +172,7 @@
 
                         <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
                             <div class="service-item position-relative">
-                                <div class="icon"><i class="bi bi-card-checklist icon"style="color: #e6b800;"></i></div>
+                                <div class="icon"><i class="bi bi-card-checklist icon" style="color: #e6b800;"></i></div>
                                 <h4><a href="#" class="stretched-link explore-link">Explore more...</a></h4>
                                 <style>
                                     .explore-link:hover {
@@ -186,25 +199,25 @@
                 e.preventDefault();
 
                 const items = [{
-                        icon: 'bi bi-wallet-fill',
-                        title: 'WDF-Loans',
-                        description: 'Apply online view status for disbursment and make payment Economic women empowerment.'
-                    },
-                    {
-                        icon: 'bi bi-bounding-box-circles',
-                        title: 'Women Leadership(twl)',
-                        description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
-                    },
-                    {
-                        icon: 'bi bi-calendar4-week',
-                        title: 'Madawati ya Jinsia',
-                        description: 'Report cases about children and family welfare, Gender and Development issues.'
-                    },
-                    {
-                        icon: 'bi bi-calendar4-week',
-                        title: 'Majukwaa uwezeshaji',
-                        description: 'Report cases about children and family welfare, Gender and Development issues.'
-                    }
+                    icon: 'bi bi-wallet-fill',
+                    title: 'WDF-Loans',
+                    description: 'Apply online view status for disbursment and make payment Economic women empowerment.'
+                },
+                {
+                    icon: 'bi bi-bounding-box-circles',
+                    title: 'Women Leadership(twl)',
+                    description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
+                },
+                {
+                    icon: 'bi bi-calendar4-week',
+                    title: 'Madawati ya Jinsia',
+                    description: 'Report cases about children and family welfare, Gender and Development issues.'
+                },
+                {
+                    icon: 'bi bi-calendar4-week',
+                    title: 'Majukwaa uwezeshaji',
+                    description: 'Report cases about children and family welfare, Gender and Development issues.'
+                }
                 ];
 
                 showModal(items);
@@ -215,20 +228,20 @@
                 e.preventDefault();
 
                 const items = [{
-                        icon: 'bi bi-activity',
-                        title: 'CDTI and CDTTI',
-                        description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
-                    },
-                    {
-                        icon: 'bi bi-bounding-box-circles',
-                        title: 'CODEPATA',
-                        description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
-                    },
-                    {
-                        icon: 'bi bi-calendar4-week',
-                        title: 'Miradi ya maendeleo',
-                        description: 'Report cases about children and family welfare, Gender and Development issues.'
-                    }
+                    icon: 'bi bi-activity',
+                    title: 'CDTI and CDTTI',
+                    description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
+                },
+                {
+                    icon: 'bi bi-bounding-box-circles',
+                    title: 'CODEPATA',
+                    description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
+                },
+                {
+                    icon: 'bi bi-calendar4-week',
+                    title: 'Miradi ya maendeleo',
+                    description: 'Report cases about children and family welfare, Gender and Development issues.'
+                }
                 ];
 
                 showModal(items);
@@ -239,20 +252,20 @@
                 e.preventDefault();
 
                 const items = [{
-                        icon: 'bi bi-activity',
-                        title: 'Parenting Groups',
-                        description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
-                    },
-                    {
-                        icon: 'bi bi-bounding-box-circles',
-                        title: 'Family-IS',
-                        description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
-                    },
-                    {
-                        icon: 'bi bi-calendar4-week',
-                        title: 'Usalama wa mtoto',
-                        description: 'Report cases about children and family welfare, Gender and Development issues.'
-                    }
+                    icon: 'bi bi-activity',
+                    title: 'Parenting Groups',
+                    description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
+                },
+                {
+                    icon: 'bi bi-bounding-box-circles',
+                    title: 'Family-IS',
+                    description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
+                },
+                {
+                    icon: 'bi bi-calendar4-week',
+                    title: 'Usalama wa mtoto',
+                    description: 'Report cases about children and family welfare, Gender and Development issues.'
+                }
                 ];
 
                 showModal(items);
