@@ -15,18 +15,17 @@
                         <div class="row gx-4">
                             <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
                                 data-aos="fade-up">
-                                <h1 class="baloo-bhaijaan-2-400" style="color: #e6b800;">MINISTRY OF COMMUNITY DEVELOPMENT
+                                <h1 class="baloo-bhaijaan-2-400" style="color: #fde68d;">MINISTRY OF COMMUNITY DEVELOPMENT
                                     GENDER WOMEN AND SPECIAL GROUPS</h1>
                                 <h6 class="display-6 text-white" style="font-size: 24px;">Community Development Information
                                     System (CD-IS)</h6>
-                                {{-- <div class="d-flex">
-                                    <a href="#featured-services" class="btn rounded-pill px-3 border-3 border-white"
-                                        style="background-color: #e6b800">
-                                        View Services
-                                        <i class="bi bi-arrow-right ms-2" style="font-size: 1.2rem;"></i>
+                                <div class="d-flex">
+                                    <a class="btn-getstarted px-4 py-2 fs-5 rounded-pill shadow"
+                                        href="landing/user.pdf" download target="_User Guadelines"
+                                        style="background-color: #fefefd; color: #000; border: 2px solid #fff; transition: all 0.3s;">
+                                        <i class="bi bi-file-pdf me-2"></i> User Guidelines
                                     </a>
-
-                                </div> --}}
+                                 </div>
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2 hero-img px-3" data-aos="zoom-out" data-aos-delay="100">
                                 <div class="row w-100 justify-content-center align-items-center py-5"
@@ -35,8 +34,11 @@
                                         <div class="card py-5 rounded-5">
                                             <div class="card-body py-5">
                                                 <div class="input-group mb-4 shadow rounded-pill">
-                                                    <span class="input-group-text rounded-start-pill"><i class="bi bi-search"></i></span>
-                                                    <input type="text" class="form-control form-control-lg rounded-end-pill" placeholder="Search">
+                                                    <span class="input-group-text rounded-start-pill"><i
+                                                            class="bi bi-search"></i></span>
+                                                    <input type="text"
+                                                        class="form-control form-control-lg rounded-end-pill"
+                                                        placeholder="Search">
                                                 </div>
                                                 <div class="row py-3">
                                                     <div class="col-4 text-center">
