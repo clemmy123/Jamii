@@ -21,7 +21,7 @@
                                     System (CD-IS)</h6>
                                 <div class="d-flex">
                                     <a class="btn-getstarted px-4 py-2 fs-5 rounded-pill shadow"
-                                        href="landing/user.pdf" download target="_User Guadelines"
+                                        href="landing/user.pdf" target="_blank"
                                         style="background-color: #fefefd; color: #000; border: 2px solid #fff; transition: all 0.3s;">
                                         <i class="bi bi-file-pdf me-2"></i> User Guidelines
                                     </a>
