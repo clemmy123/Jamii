@@ -1,4 +1,5 @@
 <!-- Modal -->
+
 <style>
 body.modal-blur::before {
   content: '';
@@ -43,17 +44,18 @@ function showModal(itemsArray) {
     const col = document.createElement('div');
     col.classList.add('col');
 
-    col.innerHTML = `
-      <div class="card h-100 shadow-sm">
-        <div class="card-body d-flex align-items-start">
-          <i class="${item.icon} fs-2 text-warning me-3"></i>
-          <div>
-            <h5 class="card-title">${item.title}</h5>
-            <p class="card-text">${item.description}</p>
-          </div>
-        </div>
+col.innerHTML = `
+  <div class="card h-100 shadow-sm" onclick="showServiceModal('${item.title}', '${item.description}')">
+    <div class="card-body d-flex align-items-start">
+      <a href="#"><i class="${item.icon} fs-2 text-warning me-3"></i></a>
+      <div>
+        <h5 class="card-title">${item.title}</h5>
+        <p class="card-text">${item.description}</p>
       </div>
-    `;
+    </div>
+  </div>
+`;
+
 
     modalContent.appendChild(col);
   });
@@ -72,4 +74,25 @@ document.getElementById('infoModal').addEventListener('show.bs.modal', () => {
 document.getElementById('infoModal').addEventListener('hidden.bs.modal', () => {
   document.body.classList.remove('modal-blur');
 });
+
+function showServiceModal(title, description) {
+  // Hide the first modal if it's open
+  const infoModalEl = document.getElementById('infoModal');
+  const infoModal = bootstrap.Modal.getInstance(infoModalEl);
+  if (infoModal) {
+    infoModal.hide();
+  }
+
+  // Show the sidebar modal only for "WDF-Loans"
+  if (title === "WDF-Loans") {
+    // document.getElementById('modalTitle').textContent = title;
+    // document.getElementById('modalDescription').textContent = description;
+
+    const serviceModal = new bootstrap.Modal(document.getElementById('serviceModal'));
+    serviceModal.show();
+  }
+}
+
+
+
 </script>

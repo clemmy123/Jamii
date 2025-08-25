@@ -2,6 +2,7 @@
 
 @section('content')
     @include('layouts.modal')
+    @include('layouts.side_modal')
 
     <main class="main">
 
@@ -210,6 +211,7 @@
                         icon: 'bi bi-wallet-fill',
                         title: 'WDF-Loans',
                         description: 'Apply online view status for disbursment and make payment Economic women empowerment.'
+                        
                     },
                     {
                         icon: 'bi bi-bounding-box-circles',
