@@ -18,7 +18,7 @@
                                 <h1 class="baloo-bhaijaan-2-400" style="color: #fde68d;">MINISTRY OF COMMUNITY DEVELOPMENT
                                     GENDER WOMEN AND SPECIAL GROUPS</h1>
                                 <h6 class="display-6 text-white" style="font-size: 24px;">Community Development Information
-                                    System (CD-IS)</h6>
+                                    System (CDIS)</h6>
                                 <div class="d-flex">
                                     <a class="btn-getstarted px-4 py-2 fs-5 rounded-pill shadow"
                                         href="landing/user.pdf" target="_blank"
