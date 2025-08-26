@@ -79,7 +79,7 @@
                                                         <a href="#featured-services"
                                                             class="btn btn-getstarted w-100 py-3 rounded-pill px-3 border-3 border-white"
                                                             style="font-weight: 500;background-color:#e6b800">
-                                                            Get Started
+                                                            View More
                                                             <i class="bi bi-arrow-right ms-2"
                                                                 style="font-size: 1.2rem;"></i>
                                                         </a>
@@ -216,17 +216,17 @@
                     {
                         icon: 'bi bi-bounding-box-circles',
                         title: 'Women Leadership(twl)',
-                        description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
+                        description: 'Register,Update details in different leadership positions'
                     },
                     {
                         icon: 'bi bi-calendar4-week',
-                        title: 'Madawati ya Jinsia',
+                        title: 'Gender Desks',
                         description: 'Report cases about children and family welfare, Gender and Development issues.'
                     },
                     {
                         icon: 'bi bi-calendar4-week',
-                        title: 'Majukwaa uwezeshaji',
-                        description: 'Report cases about children and family welfare, Gender and Development issues.'
+                        title: 'Women Economic Empowerment Forums',
+                        description: 'Report cases about women development forums, Gender and Development issues.'
                     }
                 ];
 
