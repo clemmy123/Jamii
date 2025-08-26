@@ -24,7 +24,7 @@
                             <i class="fas fa-user-check fa-2x" style="color: #3498db;"></i>
                         </div>
                         <div class="col-10 text-start">
-                            <h6>Step 1: Register / Login</h6>
+                            <h6>Step 1: Create Account / Sign In</h6>
                             <p>Create an account or log in to your existing profile for Individuals and Group members
                                 must use one of the account.</p>
                         </div>
