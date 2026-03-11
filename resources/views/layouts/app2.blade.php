@@ -59,7 +59,9 @@
 
 <body class="index-page">
 
-    <header id="header" class="header d-flex align-items-center sticky-top">
+  <header id="header" class="header d-flex align-items-center sticky-top"
+    style="background-image: url('landing/img/capture4.jpg'); background-size: cover; background-position: center;">
+
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
             <a href="/" class="logo d-flex align-items-center me-auto">

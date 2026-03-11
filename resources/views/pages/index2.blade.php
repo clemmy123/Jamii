@@ -8,7 +8,7 @@
 
         <!-- Hero Section -->
         <section id="hero" class="section"
-            style="background-image: url('{{ asset('landing/img/b3.jpg') }}'); background-size: cover;">
+            style="background-image: url('{{ asset('landing/img/theme3.jpg') }}'); background-size: cover;">
 
             <div class="container">
                 <div class="row align-items-center" style="min-height: 70vh;">
@@ -28,70 +28,31 @@
                                     </a>
                                  </div>
                             </div>
-                            <div class="col-lg-6 order-1 order-lg-2 hero-img px-3" data-aos="zoom-out" data-aos-delay="100">
-                                <div class="row w-100 justify-content-center align-items-center py-5"
-                                    style="background-color: ;">
-                                    <div class="col">
-                                        <div class="card py-5 rounded-5">
-                                            <div class="card-body py-5">
-                                                <div class="input-group mb-4 shadow rounded-pill">
-                                                    <span class="input-group-text rounded-start-pill"><i
-                                                            class="bi bi-search"></i></span>
-                                                    <input type="text"
-                                                        class="form-control form-control-lg rounded-end-pill"
-                                                        placeholder="Search">
-                                                </div>
-                                                <div class="row py-3">
-                                                    <div class="col-4 text-center">
-                                                        <i class="bi bi-people-fill"
-                                                            style="font-size: 2.5rem; color: #e6b800;"></i>
-                                                        <div style="color: #888; font-size: 1rem;">Gender & Women
-                                                            Empowerment</div>
-                                                    </div>
-                                                    <div class="col-4 text-center">
-                                                        <i class="bi bi-building-fill-up"
-                                                            style="font-size: 2.5rem; color: #e6b800;"></i>
-                                                        <div style="color: #888; font-size: 1rem;">CD & CDTI/CDTTI</div>
-                                                    </div>
-                                                    <div class="col-4 text-center">
-                                                        <i class="bi bi-diagram-3-fill"
-                                                            style="font-size: 2.5rem; color: #e6b800;"></i>
-                                                        <div style="color: #888; font-size: 1rem;">Children & Family</div>
-                                                    </div>
-                                                    <div class="col-4 text-center">
-                                                        <i class="bi bi-collection-fill"
-                                                            style="font-size: 2.5rem; color: #e6b800;"></i>
-                                                        <div style="color: #888; font-size: 1rem;">NPA VWAC</div>
-                                                    </div>
-                                                    <div class="col-4 text-center">
-                                                        <i class="bi bi-card-list"
-                                                            style="font-size: 2.5rem; color: #e6b800;"></i>
-                                                        <div style="color: #888; font-size: 1rem;">Programs</div>
-                                                    </div>
-                                                    <div class="col-4 text-center">
-                                                        <i class="bi bi-card-checklist"
-                                                            style="font-size: 2.5rem; color: #e6b800;"></i>
-                                                        <div style="color: #888; font-size: 1rem;">Report Cases</div>
-                                                    </div>
-                                                </div>
-                                                <div class="row mt-4">
-                                                    <div class="col-12">
-                                                        <a href="#featured-services"
-                                                            class="btn btn-getstarted w-100 py-3 rounded-pill px-3 border-3 border-white"
-                                                            style="font-weight: 500;background-color:#e6b800">
-                                                            View More
-                                                            <i class="bi bi-arrow-right ms-2"
-                                                                style="font-size: 1.2rem;"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
+                          <div class="col-lg-6 order-1 order-lg-2 hero-img px-3" data-aos="zoom-out" data-aos-delay="100">
+       <div class="col-lg-15 order-10 order-lg-5 hero-img px-3" data-aos="zoom-out" data-aos-delay="100">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+                <img src="landing/img/zoom.jpeg" class="d-block w-100 img-fluid" alt="Slide 1" 
+                     style="transform: scale(1.1); transform-origin: center;">
+            </div>
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="carousel-item">
+                <img src="landing/img/zoom.jpeg" class="d-block w-100 img-fluid" alt="Slide 2" 
+                     style="transform: scale(1.1); transform-origin: center;">
+            </div>
+
+            <div class="carousel-item">
+                <img src="landing/img/zoom.jpeg" class="d-block w-100 img-fluid" alt="Slide 3" 
+                     style="transform: scale(1.1); transform-origin: center;">
+            </div>
+
+        </div>
+
+        </div>
+</div>
+            </div>
                     </div>
 
                 </div>
