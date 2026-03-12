@@ -122,7 +122,7 @@
             border-bottom-left-radius: 4px;
         }
 
-        /* New Gemini Style Input Styling */
+        /* Input Styling */
         .chat-input-wrapper {
             padding: 20px 40px;
             background: var(--bg-color);
@@ -225,6 +225,7 @@
                         </svg>
                     </div>
 
+                    <!-- Primary input for chat -->
                     <input type="text" id="message" placeholder="Ask Jamii for anything.....">
                     <button id="mic-btn" onclick="startVoice()">
                         <svg id="mic-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -251,13 +252,12 @@
     </div>
 
     <script>
+        // Function to send message using #message input
         function sendMessage() {
             let messageInput = document.getElementById("message");
             let message = messageInput.value;
 
-            if (message.trim() === "") {
-                return;
-            }
+            if (message.trim() === "") return;
 
             let chatBox = document.getElementById("chat-box");
 
@@ -268,15 +268,13 @@
             messageInput.value = "";
             chatBox.scrollTop = chatBox.scrollHeight;
 
-            fetch('/chat/send', {
+            fetch('/chat/ask', {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
                         "X-CSRF-TOKEN": document.querySelector('meta[name="csrf-token"]').getAttribute("content")
                     },
-                    body: JSON.stringify({
-                        message: message
-                    })
+                    body: JSON.stringify({ message: message })
                 })
                 .then(res => res.json())
                 .then(data => {
@@ -285,10 +283,44 @@
                     chatBox.scrollTop = chatBox.scrollHeight;
                 })
                 .catch(err => {
+                    chatBox.innerHTML += `<div class="message ai-message">Error communicating with server.</div>`;
                     console.error("Error:", err);
                 });
         }
 
+        // Function to send message using #question input style (legacy)
+        function sendQuestion() {
+            let question = document.getElementById('question')?.value.trim();
+            if (!question) return;
+
+            let chatBox = document.getElementById('chat-box');
+
+            // Show user question
+            chatBox.innerHTML += `<div class="message user-message">${question}</div>`;
+
+            fetch("/chat/ask", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-CSRF-TOKEN": document.querySelector('meta[name="csrf-token"]').getAttribute("content")
+                },
+                body: JSON.stringify({ message: question })
+            })
+            .then(res => res.json())
+            .then(data => {
+                chatBox.innerHTML += `<div class="message ai-message">${data.answer}</div>`;
+                if (document.getElementById('question')) {
+                    document.getElementById('question').value = "";
+                }
+                chatBox.scrollTop = chatBox.scrollHeight; // auto scroll
+            })
+            .catch(err => {
+                chatBox.innerHTML += `<div class="message ai-message">Error communicating with server.</div>`;
+                console.error(err);
+            });
+        }
+
+        // Press Enter to send
         document.getElementById("message").addEventListener("keypress", function(event) {
             if (event.key === "Enter") {
                 sendMessage();

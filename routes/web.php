@@ -7,6 +7,6 @@ use Illuminate\Support\Facades\Route;
 // })->name('index2');
 
 Route::get('/', [ChatController::class,'index']);
-Route::post('/chat/send', [ChatController::class,'send']);
+Route::post('/chat/ask', [ChatController::class,'ask']);
 
 
